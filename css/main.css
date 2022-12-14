@@ -1,0 +1,50 @@
+/* =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+/* =*= IMPORTS: general styles (исползуются на разных страницах (p) в разных секциях (s) сайта) =*= */
+/* =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+/**/
+@import url("_global_fonts.css");
+/**/
+/* Переменные должны быть прописаны выше того объекта, в котором они используются. */
+@import url("_global_vars.css");
+/**/
+/* Глобальая настройка тегов. Могу отключить (DISABLED), чтобы использовать, например, reset.css в gulpfile.js. */
+@import url("_global_tagsTuning.css");
+/**/
+/* Общие классы. */
+@import url("_global_generalClasses.css");
+/**/
+/**/
+/* =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+/* =*= IMPORTS: pages and sections (основные страницы и секции сайта) =*= */
+/* =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+/**/
+@import url("01p01s_index.css");
+/**/
+@import url("02p01s_artworks.css");
+/**/
+@import url("03p01s_about.css");
+/**/
+@import url("04p01s_humberBakery.css");
+/**/
+@import url("05p01s_domeRestaurant.css");
+/**/
+@import url("06p01s_amsterdam.css");
+/**/
+@import url("07p01s_illustration.css");
+/**/
+@import url("08p01s_mspace.css");
+/**/
+@import url("09p01s_artBusiness.css");
+/**/
+@import url("10p01s_core.css");
+/**/
+@import url("11p01s_td.css");
+/**/
+/**/
+/* =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+/* =*= IMPORTS: blocks (смысловые блоки кода, которые можно использовать в других проектах) =*= */
+/* =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+/**/
+@import url("snippet_01.css");
+/**/
+@import url("snippet_02.css");
